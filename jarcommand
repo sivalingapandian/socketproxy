@@ -1,10 +1,10 @@
 C:\bea10\jrockit_150_11\bin\jar -cvfm MyProxyServer.jar manifest.txt *.*
 
 
-java -classpath MyProxyServer.jar com.smg.MyProxyServer 8002 TN-PANDIANS.internal.gxs.com 7002 15000 
+java -classpath MyProxyServer.jar com.smg.MyProxyServer 8002 TN-PANDIANS.example.com 7002 15000 
 
-java -classpath MyProxyServer.jar com.smg.MyProxyServer 8002 TN-PANDIANS.internal.gxs.com 7002 15000 ejbCreate
+java -classpath MyProxyServer.jar com.smg.MyProxyServer 8002 TN-PANDIANS.example.com 7002 15000 ejbCreate
 
-java -classpath MyProxyServer.jar com.smg.MyProxyServer 9002 q10csr1.internal.gxs.com 7001 300000 
+java -classpath MyProxyServer.jar com.smg.MyProxyServer 9002 test.example.com 7001 300000 
 
-java.naming.provider.url=t3\://ohedftgdb1\:9002
+java.naming.provider.url=t3\://example\:9002
